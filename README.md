@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To see a live example, go to [https://snapfix.io](https://snapfix.io)
 
-Things you may want to cover:
+To get this project running locally, you will need postgres installed.
 
-* Ruby version
+Run:
 
-* System dependencies
+bundle install
 
-* Configuration
+rake db:create db:migrate db:seed
 
-* Database creation
+rails s
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To get the server up and running at localhost:3000
